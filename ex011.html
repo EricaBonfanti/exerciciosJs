@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeiro ou Brasieliro?</title>
+    <style>
+        #res {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> SISTEMA DE DETECÇÃO DE ESTRANGEIRO</h1>
+    <h2>Qual seu país?</h2> <input type="text" name="txt1" id="txt1">
+    <p>OBS: Digite as SIGLAS dos PAÍSES</p>
+    <input type="button" value="verificar" onclick="pais()">
+
+    <div id="res">
+
+    </div>
+
+
+
+
+    <script>
+        var txtver = window.document.querySelector('input#txt1')
+        var res = window.document.querySelector('div#res')
+
+        function pais() {
+            var txtver = window.document.querySelector('input#txt1')
+            var res = window.document.querySelector('div#res')
+            var vel = String(txtver.value)
+            res.innerText = `Você é ${vel}`
+            if (vel === 'BR') {
+                res.innerHTML = `<p> Você é <strong>BRASILEIRO!!</strong> </p>`
+            } else {
+                res.innerHTML = `<p> você é <strong>ESTRANGEIRO</strong>!</p>`
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
