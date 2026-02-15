@@ -22,20 +22,6 @@
 ! O objetivo principal é consolidar o aprendizado através da prática constante, documentando cada passo da minha evolução como desenvolvedor.
 ! Aqui você encontrará scripts, interfaces interativas e soluções para problemas reais propostos durante as aulas.
 ```
-
----
-
-## ⚙️ Estrutura de Aprendizado
-
-```diff
-+ Módulo 1 (Básico): Primeiros passos, variáveis, tipos de dados e operadores. Onde a mágica começa com o "Olá, Mundo!".
-+ Módulo 2 (DOM): Interatividade com o usuário, manipulação de elementos HTML e estilização dinâmica via CSS.
-+ Módulo 3 (Condições): Tomada de decisões no código usando if/else e switch/case para criar programas inteligentes.
-+ Módulo 4 (Repetições): Estruturas de loop (while, do while, for) para automação de tarefas repetitivas.
-+ Módulo 5 (Variáveis Compostas): Arrays e objetos para organizar dados de forma eficiente.
-+ Módulo 6 (Funções): Modularização de código e lógica avançada para projetos mais robustos.
-```
-
 ---
 
 ## 🚀 Tecnologias e Ferramentas Utilizadas
